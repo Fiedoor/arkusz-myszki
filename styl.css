@@ -1,0 +1,62 @@
+body {
+    background-color: #EEEEEE;
+}
+
+#kontener {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+#logo,
+#menu,
+footer {
+    background-color: #C0C0C0;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#logo {
+    width: 400px;
+}
+
+#menu {
+    width: 600px;
+}
+
+#baner {
+    background-color: #DDDDDD;
+    height: 200px;
+}
+
+main {
+    margin: 50px;
+}
+
+footer {
+    text-align: right;
+}
+
+#menu a {
+    color: #555555;
+    margin: 50px;
+    font-size: 200%;
+    text-decoration: none;
+}
+
+table {
+    text-align: left;
+}
+
+hr {
+    background-color: #C0C0C0;
+    width: 70%;
+    height: 2px;
+}
+
+/* Moje */
+header {
+    display: flex;
+    flex-direction: row;
+}
