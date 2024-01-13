@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Usługi informatyczne</title>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="kontener">
+        <header>
+            <div id="logo">
+                <img src="logo.png" alt="logo firmy">
+            </div>
+            <div id="menu">
+                <a href="index.html">O nas</a>
+                <a href="uslugi.html">Usługi</a>
+                <a href="kontakt.html">Kontakt</a>
+            </div>
+        </header>
+        <div id="baner">
+            <img src="animacja.gif">
+        </div>
+        <main>
+            <hr>
+            <h2>Kontakt</h2>
+            <table>
+                <tr>
+                    <td>Imię</td>
+                    <td>
+                        <input type="text" id="imie">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nazwisko</td>
+                    <td>
+                        <input type="text" id="nazwisko">
+                    </td>
+                </tr>
+                <tr>
+                    <td>E-mail</td>
+                    <td>
+                        <input type="email" id="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Usługa:</td>
+                    <td>
+                        <textarea id="Opis" cols="20" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" id="zap" checked> Zapoznałem/am się z regulaminem
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type="reset">Resetuj</button>
+                        <button type="submit" onclick="s()">Prześlij</button>
+                    </td>
+                </tr>
+            </table>
+            <hr>
+        </main>
+        <footer>
+            <p>Autor strony: <b>PESEL</b></p>
+        </footer>
+    </div>
+</body>
+
+</html>
